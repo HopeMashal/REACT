@@ -1,0 +1,12 @@
+.quiz {
+  width: fit-content;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.q-space {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
