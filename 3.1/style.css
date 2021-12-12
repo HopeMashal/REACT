@@ -1,0 +1,30 @@
+.box1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:green;
+  width:300px;
+  height:150px;
+}
+.box2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:blue;
+  width:250px;
+  height:120px;
+}
+.box3{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction:column;
+  background-color:pink;
+  width:200px;
+  height:90px;
+}
+.box4{
+  background-color:purple;
+  width:150px;
+  height:30px;
+}
