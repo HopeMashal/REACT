@@ -1,0 +1,9 @@
+.box {
+  height: 100px;
+  width: 100px;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
