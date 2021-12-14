@@ -1,0 +1,22 @@
+.container {
+  height: 50vh;
+}
+
+.box {
+  margin: 10px;
+  margin-left: 0px;
+  transform: translateX(-10vw);
+}
+
+.box-animation {
+  animation: motion 1s forwards ease-in-out;
+}
+
+@keyframes motion {
+  from {
+    transform: translateX(-10vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
