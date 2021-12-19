@@ -1,0 +1,34 @@
+.SearchBar{
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+input{
+  width: 200px;
+}
+.avatar{
+  border: black solid 2px;
+  width:200px;
+  height: 230px;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 180px;
+  height: 180px;
+}
+.users{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  row-gap: 20px;
+}
+.users-container{
+  text-align: center;
+  margin:30px;
+}
