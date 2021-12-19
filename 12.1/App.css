@@ -1,0 +1,18 @@
+.App{
+  text-align: center;
+}
+button{
+  margin: 10px;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: azure;
+  cursor: pointer;
+}
+button:hover{
+  background-color: aqua;
+}
+.JokeText{
+  font-size: 40px;
+  margin-top: 20px;
+}
